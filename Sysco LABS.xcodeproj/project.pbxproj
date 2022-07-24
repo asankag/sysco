@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20303A95288D06B2003A08B6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20303A94288D06B1003A08B6 /* DetailViewController.swift */; };
 		20ACEE02288B7C94005875B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ACEE01288B7C94005875B7 /* AppDelegate.swift */; };
 		20ACEE04288B7C94005875B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ACEE03288B7C94005875B7 /* SceneDelegate.swift */; };
-		20ACEE06288B7C94005875B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ACEE05288B7C94005875B7 /* ViewController.swift */; };
+		20ACEE06288B7C94005875B7 /* PlanetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ACEE05288B7C94005875B7 /* PlanetsViewController.swift */; };
 		20ACEE09288B7C94005875B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20ACEE07288B7C94005875B7 /* Main.storyboard */; };
 		20ACEE0B288B7CA6005875B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20ACEE0A288B7CA6005875B7 /* Assets.xcassets */; };
 		20ACEE0E288B7CA6005875B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20ACEE0C288B7CA6005875B7 /* LaunchScreen.storyboard */; };
+		20ACEE64288BABA0005875B7 /* PlanetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ACEE63288BABA0005875B7 /* PlanetModel.swift */; };
+		20ACEE68288BC027005875B7 /* PlanetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ACEE67288BC027005875B7 /* PlanetViewModel.swift */; };
+		CFAE9550B1F993CD1DF1B54D /* Pods_Sysco_LABS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86270F6E4B89D68C07599883 /* Pods_Sysco_LABS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20303A94288D06B1003A08B6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		20ACEDFE288B7C94005875B7 /* Sysco LABS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sysco LABS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20ACEE01288B7C94005875B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20ACEE03288B7C94005875B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		20ACEE05288B7C94005875B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20ACEE05288B7C94005875B7 /* PlanetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsViewController.swift; sourceTree = "<group>"; };
 		20ACEE08288B7C94005875B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20ACEE0A288B7CA6005875B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20ACEE0D288B7CA6005875B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20ACEE0F288B7CA6005875B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20ACEE63288BABA0005875B7 /* PlanetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetModel.swift; sourceTree = "<group>"; };
+		20ACEE67288BC027005875B7 /* PlanetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetViewModel.swift; sourceTree = "<group>"; };
+		254CD3ECC44E951CE89CE86E /* Pods-Sysco LABS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sysco LABS.release.xcconfig"; path = "Target Support Files/Pods-Sysco LABS/Pods-Sysco LABS.release.xcconfig"; sourceTree = "<group>"; };
+		86270F6E4B89D68C07599883 /* Pods_Sysco_LABS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sysco_LABS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB990CFD1773CC274D874D4 /* Pods-Sysco LABS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sysco LABS.debug.xcconfig"; path = "Target Support Files/Pods-Sysco LABS/Pods-Sysco LABS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFAE9550B1F993CD1DF1B54D /* Pods_Sysco_LABS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				20ACEE00288B7C94005875B7 /* Sysco LABS */,
 				20ACEDFF288B7C94005875B7 /* Products */,
+				E704201713DF4320566DC04C /* Pods */,
+				DDE8A2109E0E445AE43240EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +71,57 @@
 			children = (
 				20ACEE01288B7C94005875B7 /* AppDelegate.swift */,
 				20ACEE03288B7C94005875B7 /* SceneDelegate.swift */,
-				20ACEE05288B7C94005875B7 /* ViewController.swift */,
-				20ACEE07288B7C94005875B7 /* Main.storyboard */,
+				20ACEE1E288B8C26005875B7 /* Models */,
+				20ACEE65288BBF6E005875B7 /* View */,
+				20ACEE66288BBF7A005875B7 /* Controller */,
 				20ACEE0A288B7CA6005875B7 /* Assets.xcassets */,
 				20ACEE0C288B7CA6005875B7 /* LaunchScreen.storyboard */,
 				20ACEE0F288B7CA6005875B7 /* Info.plist */,
 			);
 			path = "Sysco LABS";
+			sourceTree = "<group>";
+		};
+		20ACEE1E288B8C26005875B7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				20ACEE63288BABA0005875B7 /* PlanetModel.swift */,
+				20ACEE67288BC027005875B7 /* PlanetViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		20ACEE65288BBF6E005875B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20ACEE07288B7C94005875B7 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		20ACEE66288BBF7A005875B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				20ACEE05288B7C94005875B7 /* PlanetsViewController.swift */,
+				20303A94288D06B1003A08B6 /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DDE8A2109E0E445AE43240EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86270F6E4B89D68C07599883 /* Pods_Sysco_LABS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E704201713DF4320566DC04C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFB990CFD1773CC274D874D4 /* Pods-Sysco LABS.debug.xcconfig */,
+				254CD3ECC44E951CE89CE86E /* Pods-Sysco LABS.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20ACEE12288B7CA6005875B7 /* Build configuration list for PBXNativeTarget "Sysco LABS" */;
 			buildPhases = (
+				459924D1E2B88EBA1E561460 /* [CP] Check Pods Manifest.lock */,
 				20ACEDFA288B7C94005875B7 /* Sources */,
 				20ACEDFB288B7C94005875B7 /* Frameworks */,
 				20ACEDFC288B7C94005875B7 /* Resources */,
+				22AF29A2C9570714C0A16373 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +192,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22AF29A2C9570714C0A16373 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sysco LABS/Pods-Sysco LABS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sysco LABS/Pods-Sysco LABS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sysco LABS/Pods-Sysco LABS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		459924D1E2B88EBA1E561460 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sysco LABS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		20ACEDFA288B7C94005875B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20ACEE06288B7C94005875B7 /* ViewController.swift in Sources */,
+				20ACEE06288B7C94005875B7 /* PlanetsViewController.swift in Sources */,
+				20ACEE68288BC027005875B7 /* PlanetViewModel.swift in Sources */,
 				20ACEE02288B7C94005875B7 /* AppDelegate.swift in Sources */,
+				20303A95288D06B2003A08B6 /* DetailViewController.swift in Sources */,
 				20ACEE04288B7C94005875B7 /* SceneDelegate.swift in Sources */,
+				20ACEE64288BABA0005875B7 /* PlanetModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +386,7 @@
 		};
 		20ACEE13288B7CA6005875B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFB990CFD1773CC274D874D4 /* Pods-Sysco LABS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +415,7 @@
 		};
 		20ACEE14288B7CA6005875B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 254CD3ECC44E951CE89CE86E /* Pods-Sysco LABS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

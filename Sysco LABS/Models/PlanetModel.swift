@@ -7,9 +7,13 @@
 
 import Foundation
 
-public struct Planet: Equatable {
-    let planetName: String
+struct Planets: Codable {
+    let results: [results]
+}
+
+public struct results: Codable {
+    let name: String
     let climate: String
-    let orbitalPeriod: String
+    let orbital_period: String
     let gravity: String
 }
